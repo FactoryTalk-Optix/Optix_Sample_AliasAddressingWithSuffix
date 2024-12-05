@@ -1,0 +1,25 @@
+Name: Types
+Type: FolderType
+Children:
+- Name: Object_Something
+  Id: g=5b54f481eb01c6e6b5eff86478c6bd96
+  Supertype: BaseObjectType
+  Children:
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Object_Speed
+  Id: g=3ec3775fc45ab8b3b95dcc3f5a7a6df2
+  Supertype: BaseObjectType
+  Children:
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Object
+  Id: g=40b99c5829258f4a54fa904d82a3cc19
+  Supertype: BaseObjectType
+  Children:
+  - Name: ObjectName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "banana"

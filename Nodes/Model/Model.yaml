@@ -1,0 +1,41 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- File: Types/Types.yaml
+- Name: Object1
+  Id: g=ae4e268c22ef05a9aba6ad352776ff20
+  Type: Object
+  Children:
+  - Name: ObjectName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "banana"
+- Name: Object1_SpeedInstance
+  Type: Object_Speed
+  Children:
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 30
+- Name: Object1_SomethingInstance
+  Type: Object_Something
+  Children:
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 50
+- Name: Object2
+  Id: g=5b6d5c81e629288c113e0f621553e5a7
+  Type: Object
+  Children:
+  - Name: ObjectName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "banana"
+- Name: Object2_SpeedInstance
+  Type: Object_Speed
+  Children:
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 40
